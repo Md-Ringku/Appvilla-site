@@ -1,0 +1,339 @@
+@media only screen and (max-width: 1200px){
+.container {
+    width: 90%;
+}
+.navbar>nav>ul>li>a {
+    margin-right: 30px;
+}
+.logo-left {
+    width: 23%;
+}
+.banner-left {
+    padding-top: 73px;
+}
+.title {
+    font-size: 30px;
+}
+.feature-box {
+    flex: 20%;
+}
+.overview-left {
+    width: 46%;
+    padding-top: 20px;
+}
+.overview1 {
+    padding-top: 90px;
+}
+.overview-left.over-left1 {
+    padding-top: 20px;
+}
+.footer-bottom-right input {
+    width: 195px;
+}
+
+.footer-bottom-right button {
+    margin-left: 2px;
+}
+#check1:checked ~ .faq-content,
+#check2:checked ~ .faq-content,
+#check3:checked ~ .faq-content,
+#check4:checked ~ .faq-content {
+    height: 240px;
+}
+}
+@media only screen and (max-width: 992px){
+	.container {
+    width: 80%;
+}
+.navbar nav ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #c74659;
+    height:0px;
+    transition: ease-in-out .5s;
+    overflow: hidden;
+}
+.menu-section {
+    position: relative;
+}
+.navbar>nav>ul>li>a {
+    margin-right: 0px;
+    line-height: 36px;
+}
+
+#menu-show:checked ~ .navbar{
+	  height: 300px;
+}
+.menu-section label i {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    margin-left: -53px;
+}
+.banner-section {
+    flex-direction: column;
+    padding-top: 4px;
+    text-align: center;
+}
+.banner-left>h2 {
+    font-size: 37px;
+}
+.banner-right {
+    margin-top: 30px;
+}
+.feature-top-content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.title {
+    font-size: 25px;
+}
+.overview-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.overview-left {
+    width: 100%;
+    padding-top: 20px;
+}
+.overview-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 43px;
+}
+.overview-right.over-right1 img {
+    width: 100%;
+}
+.overview-left.over-left1 {
+    padding-top: 60px;
+}
+.top-content-trust h3 {
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.pricing-wrapper {
+    flex-wrap: wrap;
+}
+.pricing-box {
+    width: 40%;
+    margin-bottom: 15px;
+}
+.team-wrapper {
+    flex-wrap: wrap;
+}
+.team-box {
+    width: 45%;
+    margin-bottom: 15px;
+}
+.testmonial-box {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.app-section {
+    width: 100%;
+
+}
+.faq-section {
+    margin-top: 30px;
+}
+.blog-wraper {
+    flex-wrap: wrap;
+}
+.blog-box {
+    width: 46%;
+    margin-bottom: 15px;
+}
+.brand-wraper {
+    flex-wrap: wrap;
+}
+.brand-logo {
+    width: 28%;
+}
+.widget.widget1 {
+    width: 42%;
+    margin-bottom: 27px;
+}
+.footer-wraper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.widget {
+    width: 28%;
+}
+.footer-bottom-right {
+    width: 49%;
+    text-align: right;
+}
+.footer-bottom-left {
+    width: 46%;
+}
+.footer-bottom {
+    flex-wrap: wrap;
+}
+.footer-bottom-right button {
+    padding: 16px 10px;
+}
+.footer-bottom-right input {
+    width: 137px;
+}
+.footer-bottom-left h3 {
+    font-size: 16px;
+}
+.footer-bottom-left p {
+    color: #ffffffc4;
+    font-size: 14px;
+}
+#check1:checked ~ .faq-content,
+#check2:checked ~ .faq-content,
+#check3:checked ~ .faq-content,
+#check4:checked ~ .faq-content {
+    height: 280px;
+}
+}
+
+
+@media only screen and (max-width:768px){
+	.nav-btn {
+    display: none;
+}
+.logo-left {
+    width: 28%;
+}
+.logo-left a img {
+    width: 100%;
+}
+.banner-left>h2 {
+    font-size: 30px;
+}
+.feature-box {
+    flex: 100%;
+}
+.counter-box {
+    margin: 0;
+    margin-bottom: 21px;
+}
+.counter-wrap {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.team-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.team-wrapper {
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.testmonial-box {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.blog-box {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.brand-logo {
+    width: 39%;
+}
+.footer-wraper {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.widget.widget1 {
+    width: 100%;
+    margin-bottom: 27px;
+}
+.widget {
+    width: 100%;
+}
+.footer-wraper {
+    text-align: center;
+}
+.footer-bottom-left {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.footer-bottom-right {
+    width: 100%;
+    text-align: center;
+}
+.footer-bottom-right input {
+    width: 81%;
+    margin-bottom: 19px;
+}
+.footer-bottom-right button {
+    padding: 16px 10px;
+    width: 86%;
+}
+#check1:checked ~ .faq-content,
+#check2:checked ~ .faq-content,
+#check3:checked ~ .faq-content,
+#check4:checked ~ .faq-content {
+    height: 408px;
+}
+}
+
+@media only screen and (max-width: 470px){
+.container {
+    width: 90%;
+}
+.banner-btn a {
+    display: block;
+    margin-bottom: 12px;
+}
+.title {
+    font-size: 22px;
+    line-height: 29px;
+}
+.banner-left {
+    padding-top: 20px;
+}
+.overview-left h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.faq-box a {
+    font-size: 13px;
+    line-height: 23px;
+}
+.faq-box a span {
+    border: 1px solid #0000003b;
+    padding: 6px 7px;
+    font-size: 13px;
+    margin-right: 8px;
+}
+.feature-box {
+    margin-right: 0px;
+}
+#check1:checked ~ .faq-content,
+#check2:checked ~ .faq-content,
+#check3:checked ~ .faq-content,
+#check4:checked ~ .faq-content {
+    height: 100%;
+}
+}
